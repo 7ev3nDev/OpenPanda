@@ -1,0 +1,21 @@
+:root > * {
+    --md-primary-fg-color: #341539;
+    --md-primary-fg-color--light: #512657;
+    --md-primary-fg-color--dark: #260E2A;
+
+    --md-accent-fg-color: #C18ACB;
+    --md-accent-fg-color--transparent: #C18ACB1A;
+}
+
+/* Dark theme */
+[data-md-color-scheme="slate"] {
+    --md-typeset-a-color: #C18ACB;
+    --md-accent-fg-color: #C18ACB;
+    --md-accent-fg-color--transparent: #C18ACB1A;
+}
+
+/* Header and navigation */
+.md-header,
+.md-tabs{
+    background-color: #341539;
+}
